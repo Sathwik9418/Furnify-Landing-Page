@@ -1,6 +1,30 @@
-.card_back{
-    background-image: url(cardback.jpg);
-    size-adjust: 10px;
+.buttonblue{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.buttonblue:hover{
+    transform: scale(1.08);
+}
+.btn{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.btn:hover{
+    transform: scale(1.08);
+}
+.dropdown-item{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.dropdown-item:hover{
+    transform: scale(1.2);
+}
+.nav-link{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.nav-link:hover{
+    transform: scale(1.2);
 }
 .icon-square {
     width: 3rem;
