@@ -1,0 +1,209 @@
+.card_back{
+    background-image: url(cardback.jpg);
+    size-adjust: 10px;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.card {
+ 
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+.fs-4 {
+    font-size: 1.5rem!important;
+}
+.bg-body-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: var(--bs-emphasis-color)!important;
+}
+.fs-4 {
+    font-size: calc(1.275rem + .3vw)!important;
+}
+.me-3 {
+    margin-right: 1rem!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.flex-shrink-0 {
+    flex-shrink: 0!important;
+}
+.d-inline-flex {
+    display: inline-flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0;
+}
+.banner_btn  {
+    margin: 70px auto 0;
+    
+}
+.banner_btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgb(56, 51, 51) ;
+    z-index: -1;
+    transition: 0.5s;
+  }
+    
+.banner_btn a:hover span{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner_btn a:hover {
+    color: #ffffff;
+}
+.banner_btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: rgb(56, 51, 51);
+    border: 5px solid rgb(56, 51, 51);
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+a {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: slateblue;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.banner_text h1 {
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -50px;
+    margin-left: auto;
+}
+.ban_txt {
+    color: rgb(56, 51, 51);
+    font-size: 40px;
+    font-family: cursive;
+    background-image: url(image.png);
+}
+.banner_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 80px;
+    width: 100vw;
+}
+.comname{
+    font-family: 'Poppins', sans-serif;
+}
+space{
+    background-color: black;
+}
+.carousel{
+    margin-top: 0;
+}
+.textt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#banner {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+:host, :root {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #f5f5f5;
+    --bg-round-a: #741313;
+    --bg-round-b: #680303;
+    --panel-color: #fff;
+    --title: #444;
+    --bg-input: #e0e0e0;
+    --input-icon: #8a8a8a;
+    --input: #333;
+    --input-hover: #222;
+    --btn-color: #5995fd;
+    --btn-text: #fff;
+    --btn-hover: #4d84e2;
+    --social-text: #444;
+    --social-icon: #4481eb;
+    --icon-color: #333;
+    --check-text: #333;
+    --check-hover: #333;
+    --check-link: #4d84e2;
+    --pass-color: #444;
+    --key-color: #777;
+    --pass-hover-color: #4de2a1;
+    --keyboard-color: #e0e0e0;
+    --key-letter: #333;
+}
