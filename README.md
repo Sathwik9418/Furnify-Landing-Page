@@ -1,5 +1,3 @@
-Here's a README file for your Furnify Landing Page project:
-
 ---
 
 # Furnify Landing Page
